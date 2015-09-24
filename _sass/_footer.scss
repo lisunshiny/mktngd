@@ -1,0 +1,35 @@
+footer {
+  background: #000;
+  height: 150px;
+}
+
+.footer-nav {
+  background: #000;
+  height: 150px;
+  width: 1000px;
+  margin: auto;
+}
+
+.footer-smiley {
+  float: left;
+  display: block;
+  background: url("../img/smiley.png");
+  width: 55px;
+  height: 28px;
+  margin: 50px;
+}
+
+.social-buttons {
+  float: right;
+  color: #fff;
+  display: block;
+
+  li {
+    margin: 40px;
+
+  }
+
+  a {
+    color: #fff;
+  }
+}

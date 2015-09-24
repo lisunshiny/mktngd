@@ -1,0 +1,26 @@
+.brands {
+  margin-top: 50px;
+
+}
+
+.brands-blurb {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.brand-list {
+  background: gray;
+  padding: 40px;
+  margin: auto;
+
+  li {
+    display: block;
+    float: left;
+    width: 200px;
+
+    img {
+      width: 100%
+    }
+  }
+}

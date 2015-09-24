@@ -1,0 +1,12 @@
+title: Appboy
+description: The best site ever!
+
+markdown: kramdown
+
+sass:
+    # style: compressed     # Minifies compiled CSS
+
+
+facebook: "https://www.facebook.com/appboy"
+twitter: "https://twitter.com/appboy"
+github: "https://github.com/appboy"

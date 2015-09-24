@@ -1,1 +1,27 @@
-test
+---
+layout: default
+
+# First section
+jumbotron-1: Hi.
+jumbotron-2: Meet Appboy.
+small: Intelligent CRM for our mobile-centric world.
+blurb: >
+  Your customers are mobile. Your marketing automation technology should
+  be, too. Start building better relationships with your customers today.
+image: phone.png
+
+---
+
+<section class="first-section clearfix">
+  <div class="text-col">
+    <h2>
+      <em>{{ page.jumbotron-1 }}</em> {{ page.jumbotron-2 }}
+    </h2>
+    <small>{{ page.small  }}</small>
+    <p>{{ page.blurb }}</p>
+  </div>
+  <figure class="img-col">
+    <img src="img/{{ page.image }}" />
+  </figure>
+
+</section>

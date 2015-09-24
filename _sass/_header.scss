@@ -1,0 +1,32 @@
+
+#page-header {
+  width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.page-nav {
+  width: 1000px;
+  margin: auto;
+}
+
+#page-logo {
+  width: 90px;
+  height: 30px;
+  background: url($appboy-header-logo);
+  float: left;
+}
+
+.page-links {
+  float: right;
+
+  li {
+    display: block;
+    float: left;
+    font-weight: 800;
+    margin: 10px;
+  }
+  a {
+    color: #000;
+  }
+}

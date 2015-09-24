@@ -1,0 +1,26 @@
+---
+layout: default
+title: Brands
+permalink: /brands/
+
+blurb: "These are our amazing customers"
+
+brand-urls:
+  - etsy.png
+  - mapquest.png
+  - dominoes.png
+  - uo.png
+
+---
+<div class="brands">
+  <p class="brands-blurb"> {{ page.blurb }}</p>
+  <ul class="brand-list clearfix">
+    {% for url in page.brand-urls %}
+      <li>
+        <img src="/img/brands/{{ url }}" alt="">
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div>
