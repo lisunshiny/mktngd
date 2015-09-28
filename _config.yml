@@ -4,7 +4,7 @@ description: The best site ever!
 markdown: kramdown
 
 sass:
-    # style: compressed     # Minifies compiled CSS
+    style: compressed     # Minifies compiled CSS
 
 
 facebook: "https://www.facebook.com/appboy"
